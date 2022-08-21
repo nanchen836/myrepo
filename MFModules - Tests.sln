@@ -1,0 +1,222 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MFModules", "MFModules", "{AA9BB867-775F-40ED-A72D-CCCCBFA98E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFLogging", "Implementation\Platform\MFModules\MFLogging\MFLogging.csproj", "{EC545E40-FA1E-4AF8-ADFC-A33C06B4EDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Accounts", "Implementation\Platform\MFModules\MFModules.Accounts\MFModules.Accounts.csproj", "{030CFAB8-300A-4685-967E-770B856E8106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Application", "Implementation\Platform\MFModules\MFModules.Application\MFModules.Application.csproj", "{A0A362BD-6803-4F3E-B49C-F983376A0E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Common", "Implementation\Platform\MFModules\MFModules.Common\MFModules.Common.csproj", "{2797B1E6-0B97-46A0-9851-FFEB2D512D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Tenants", "Implementation\Platform\MFModules\MFModules.Tenants\MFModules.Tenants.csproj", "{A8DF11EF-7A7B-4F3C-A00F-DB34B223C1D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Users", "Implementation\Platform\MFModules\MFModules.Users\MFModules.Users.csproj", "{824DDAC6-396C-4828-A7BD-C6FE95D80B5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MFModules.Tests", "MFModules.Tests", "{5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFLogging.Tests", "Implementation\Tests\UnitTests\MFModules\MFLogging.Tests\MFLogging.Tests.csproj", "{229C0998-F9B2-4C33-A027-28E8BD02A302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Accounts.Tests", "Implementation\Tests\UnitTests\MFModules\MFModules.Accounts.Tests\MFModules.Accounts.Tests.csproj", "{8A84CC05-F9A1-49F9-AE05-2EEC47D950BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Common.Tests", "Implementation\Tests\UnitTests\MFModules\MFModules.Common\MFModules.Common.Tests.csproj", "{39220653-5176-455F-8460-2F119DD0E881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Devices.Tests", "Implementation\Tests\UnitTests\MFModules\MFModules.Devices.Tests\MFModules.Devices.Tests.csproj", "{AE26B0B3-0305-4F79-B474-2AC04B581697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Tenants.Tests", "Implementation\Tests\UnitTests\MFModules\MFModules.Tenants.Tests\MFModules.Tenants.Tests.csproj", "{8C44327A-15C8-4C0F-AFB9-272F79816A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Tests.Common", "Implementation\Tests\UnitTests\MFModules\MFModules.Tests.Common\MFModules.Tests.Common.csproj", "{04DD4619-928C-4841-BF62-753A2722CCD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Users.Tests", "Implementation\Tests\UnitTests\MFModules\MFModules.Users.Tests\MFModules.Users.Tests.csproj", "{51F63CC5-C429-4202-85EB-410922354C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Devices", "Implementation\Platform\MFModules\MFModules.Devices\MFModules.Devices.csproj", "{CEA690E5-2641-4F3E-8962-686FF5B28F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFModules.Application.Tests", "Implementation\Tests\UnitTests\MFModules\MFModules.Application\MFModules.Application.Tests.csproj", "{0603831D-E117-4418-8C02-8FE30F717A9B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = Implementation\\Platform\\MFModules\\MFLogging\\MFLogging.csproj
+		SccProjectTopLevelParentUniqueName0 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName0 = Implementation/Platform/MFModules/MFLogging
+		SccAuxPath0 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath0 = Implementation\\Platform\\MFModules\\MFLogging
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = Implementation\\Platform\\MFModules\\MFModules.Accounts\\MFModules.Accounts.csproj
+		SccProjectTopLevelParentUniqueName1 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName1 = Implementation/Platform/MFModules/MFModules.Accounts
+		SccAuxPath1 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath1 = Implementation\\Platform\\MFModules\\MFModules.Accounts
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Implementation\\Platform\\MFModules\\MFModules.Application\\MFModules.Application.csproj
+		SccProjectTopLevelParentUniqueName2 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName2 = Implementation/Platform/MFModules/MFModules.Application
+		SccAuxPath2 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath2 = Implementation\\Platform\\MFModules\\MFModules.Application
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = Implementation\\Platform\\MFModules\\MFModules.Common\\MFModules.Common.csproj
+		SccProjectTopLevelParentUniqueName3 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName3 = Implementation/Platform/MFModules/MFModules.Common
+		SccAuxPath3 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath3 = Implementation\\Platform\\MFModules\\MFModules.Common
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = Implementation\\Platform\\MFModules\\MFModules.Tenants\\MFModules.Tenants.csproj
+		SccProjectTopLevelParentUniqueName4 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName4 = Implementation/Platform/MFModules/MFModules.Tenants
+		SccAuxPath4 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath4 = Implementation\\Platform\\MFModules\\MFModules.Tenants
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = Implementation\\Platform\\MFModules\\MFModules.Users\\MFModules.Users.csproj
+		SccProjectTopLevelParentUniqueName5 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName5 = Implementation/Platform/MFModules/MFModules.Users
+		SccAuxPath5 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath5 = Implementation\\Platform\\MFModules\\MFModules.Users
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName6 = Implementation\\Tests\\UnitTests\\MFModules\\MFLogging.Tests\\MFLogging.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName6 = Implementation/Tests/UnitTests/MFModules/MFLogging.Tests
+		SccAuxPath6 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath6 = Implementation\\Tests\\UnitTests\\MFModules\\MFLogging.Tests
+		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName7 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Accounts.Tests\\MFModules.Accounts.Tests.csproj
+		SccProjectTopLevelParentUniqueName7 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName7 = Implementation/Tests/UnitTests/MFModules/MFModules.Accounts.Tests
+		SccAuxPath7 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath7 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Accounts.Tests
+		SccProvider7 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName8 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Common\\MFModules.Common.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName8 = Implementation/Tests/UnitTests/MFModules/MFModules.Common
+		SccAuxPath8 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath8 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Common
+		SccProvider8 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName9 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Devices.Tests\\MFModules.Devices.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName9 = Implementation/Tests/UnitTests/MFModules/MFModules.Devices.Tests
+		SccAuxPath9 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath9 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Devices.Tests
+		SccProvider9 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName10 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Tenants.Tests\\MFModules.Tenants.Tests.csproj
+		SccProjectTopLevelParentUniqueName10 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName10 = Implementation/Tests/UnitTests/MFModules/MFModules.Tenants.Tests
+		SccAuxPath10 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath10 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Tenants.Tests
+		SccProvider10 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName11 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Tests.Common\\MFModules.Tests.Common.csproj
+		SccProjectTopLevelParentUniqueName11 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName11 = Implementation/Tests/UnitTests/MFModules/MFModules.Tests.Common
+		SccAuxPath11 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath11 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Tests.Common
+		SccProvider11 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName12 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Users.Tests\\MFModules.Users.Tests.csproj
+		SccProjectTopLevelParentUniqueName12 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName12 = Implementation/Tests/UnitTests/MFModules/MFModules.Users.Tests
+		SccAuxPath12 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath12 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Users.Tests
+		SccProvider12 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName13 = Implementation\\Platform\\MFModules\\MFModules.Devices\\MFModules.Devices.csproj
+		SccProjectTopLevelParentUniqueName13 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName13 = Implementation/Platform/MFModules/MFModules.Devices
+		SccAuxPath13 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath13 = Implementation\\Platform\\MFModules\\MFModules.Devices
+		SccProvider13 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName14 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Application\\MFModules.Application.Tests.csproj
+		SccProjectTopLevelParentUniqueName14 = MFModules\u0020-\u0020Tests.sln
+		SccProjectName14 = Implementation/Tests/UnitTests/MFModules/MFModules.Application
+		SccAuxPath14 = http://auk-tfs.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath14 = Implementation\\Tests\\UnitTests\\MFModules\\MFModules.Application
+		SccProvider14 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC545E40-FA1E-4AF8-ADFC-A33C06B4EDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC545E40-FA1E-4AF8-ADFC-A33C06B4EDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC545E40-FA1E-4AF8-ADFC-A33C06B4EDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC545E40-FA1E-4AF8-ADFC-A33C06B4EDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030CFAB8-300A-4685-967E-770B856E8106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030CFAB8-300A-4685-967E-770B856E8106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030CFAB8-300A-4685-967E-770B856E8106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030CFAB8-300A-4685-967E-770B856E8106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A362BD-6803-4F3E-B49C-F983376A0E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A362BD-6803-4F3E-B49C-F983376A0E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A362BD-6803-4F3E-B49C-F983376A0E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A362BD-6803-4F3E-B49C-F983376A0E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2797B1E6-0B97-46A0-9851-FFEB2D512D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2797B1E6-0B97-46A0-9851-FFEB2D512D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2797B1E6-0B97-46A0-9851-FFEB2D512D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2797B1E6-0B97-46A0-9851-FFEB2D512D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DF11EF-7A7B-4F3C-A00F-DB34B223C1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DF11EF-7A7B-4F3C-A00F-DB34B223C1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DF11EF-7A7B-4F3C-A00F-DB34B223C1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DF11EF-7A7B-4F3C-A00F-DB34B223C1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824DDAC6-396C-4828-A7BD-C6FE95D80B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824DDAC6-396C-4828-A7BD-C6FE95D80B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824DDAC6-396C-4828-A7BD-C6FE95D80B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824DDAC6-396C-4828-A7BD-C6FE95D80B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229C0998-F9B2-4C33-A027-28E8BD02A302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229C0998-F9B2-4C33-A027-28E8BD02A302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229C0998-F9B2-4C33-A027-28E8BD02A302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229C0998-F9B2-4C33-A027-28E8BD02A302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A84CC05-F9A1-49F9-AE05-2EEC47D950BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A84CC05-F9A1-49F9-AE05-2EEC47D950BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A84CC05-F9A1-49F9-AE05-2EEC47D950BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A84CC05-F9A1-49F9-AE05-2EEC47D950BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39220653-5176-455F-8460-2F119DD0E881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39220653-5176-455F-8460-2F119DD0E881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39220653-5176-455F-8460-2F119DD0E881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39220653-5176-455F-8460-2F119DD0E881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE26B0B3-0305-4F79-B474-2AC04B581697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE26B0B3-0305-4F79-B474-2AC04B581697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE26B0B3-0305-4F79-B474-2AC04B581697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE26B0B3-0305-4F79-B474-2AC04B581697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C44327A-15C8-4C0F-AFB9-272F79816A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C44327A-15C8-4C0F-AFB9-272F79816A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C44327A-15C8-4C0F-AFB9-272F79816A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C44327A-15C8-4C0F-AFB9-272F79816A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DD4619-928C-4841-BF62-753A2722CCD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DD4619-928C-4841-BF62-753A2722CCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DD4619-928C-4841-BF62-753A2722CCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DD4619-928C-4841-BF62-753A2722CCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F63CC5-C429-4202-85EB-410922354C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F63CC5-C429-4202-85EB-410922354C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F63CC5-C429-4202-85EB-410922354C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F63CC5-C429-4202-85EB-410922354C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA690E5-2641-4F3E-8962-686FF5B28F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA690E5-2641-4F3E-8962-686FF5B28F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA690E5-2641-4F3E-8962-686FF5B28F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA690E5-2641-4F3E-8962-686FF5B28F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0603831D-E117-4418-8C02-8FE30F717A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0603831D-E117-4418-8C02-8FE30F717A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0603831D-E117-4418-8C02-8FE30F717A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0603831D-E117-4418-8C02-8FE30F717A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC545E40-FA1E-4AF8-ADFC-A33C06B4EDCF} = {AA9BB867-775F-40ED-A72D-CCCCBFA98E39}
+		{030CFAB8-300A-4685-967E-770B856E8106} = {AA9BB867-775F-40ED-A72D-CCCCBFA98E39}
+		{A0A362BD-6803-4F3E-B49C-F983376A0E0C} = {AA9BB867-775F-40ED-A72D-CCCCBFA98E39}
+		{2797B1E6-0B97-46A0-9851-FFEB2D512D89} = {AA9BB867-775F-40ED-A72D-CCCCBFA98E39}
+		{A8DF11EF-7A7B-4F3C-A00F-DB34B223C1D0} = {AA9BB867-775F-40ED-A72D-CCCCBFA98E39}
+		{824DDAC6-396C-4828-A7BD-C6FE95D80B5B} = {AA9BB867-775F-40ED-A72D-CCCCBFA98E39}
+		{229C0998-F9B2-4C33-A027-28E8BD02A302} = {5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}
+		{8A84CC05-F9A1-49F9-AE05-2EEC47D950BB} = {5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}
+		{39220653-5176-455F-8460-2F119DD0E881} = {5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}
+		{AE26B0B3-0305-4F79-B474-2AC04B581697} = {5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}
+		{8C44327A-15C8-4C0F-AFB9-272F79816A26} = {5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}
+		{04DD4619-928C-4841-BF62-753A2722CCD2} = {5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}
+		{51F63CC5-C429-4202-85EB-410922354C82} = {5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}
+		{CEA690E5-2641-4F3E-8962-686FF5B28F49} = {AA9BB867-775F-40ED-A72D-CCCCBFA98E39}
+		{0603831D-E117-4418-8C02-8FE30F717A9B} = {5E6CC533-2EC5-4F00-BFEC-F62D0800FFB4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementation.", "Implementation.", "{525D2D6F-8D67-4EDE-AEB0-4127DC83E653}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web.", "Web.", "{DC354106-BE98-4787-941E-B68350A5AE57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MobileBanking.", "MobileBanking.", "{E56C0A39-E5C0-486D-B8F6-4DECE7354ED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specs.", "Specs.", "{3D843BE7-52A6-454A-B876-C6C15D623E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileBanking.Specs.Sample", "Implementation\Web\MobileBanking\Specs\MobileBanking.Specs.Sample\MobileBanking.Specs.Sample.csproj", "{FFFAFCB9-3FEA-4C93-803F-988CC95770E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobiliti.Specs.Framework", "Implementation\Web\MobileBanking\Specs\Mobiliti.Specs.Framework\Mobiliti.Specs.Framework.csproj", "{E63D17BB-31A2-4E40-AAA0-3A62CF705CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow.CodeGeneratorPlugin", "Implementation\Web\MobileBanking\Specs\SpecFlow.CodeGeneratorPlugin\SpecFlow.CodeGeneratorPlugin.csproj", "{EF720669-1490-40CA-AD18-611BA8290A17}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://mcom-vstfs1.mcom.local:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Implementation\\Web\\MobileBanking\\Specs\\MobileBanking.Specs.Sample\\MobileBanking.Specs.Sample.csproj
+		SccProjectTopLevelParentUniqueName1 = SpecFlowPackages.sln
+		SccProjectName1 = Implementation/Web/MobileBanking/Specs/MobileBanking.Specs.Sample
+		SccLocalPath1 = Implementation\\Web\\MobileBanking\\Specs\\MobileBanking.Specs.Sample
+		SccProjectUniqueName2 = Implementation\\Web\\MobileBanking\\Specs\\Mobiliti.Specs.Framework\\Mobiliti.Specs.Framework.csproj
+		SccProjectTopLevelParentUniqueName2 = SpecFlowPackages.sln
+		SccProjectName2 = Implementation/Web/MobileBanking/Specs/Mobiliti.Specs.Framework
+		SccLocalPath2 = Implementation\\Web\\MobileBanking\\Specs\\Mobiliti.Specs.Framework
+		SccProjectUniqueName3 = Implementation\\Web\\MobileBanking\\Specs\\SpecFlow.CodeGeneratorPlugin\\SpecFlow.CodeGeneratorPlugin.csproj
+		SccProjectTopLevelParentUniqueName3 = SpecFlowPackages.sln
+		SccProjectName3 = Implementation/Web/MobileBanking/Specs/SpecFlow.CodeGeneratorPlugin
+		SccLocalPath3 = Implementation\\Web\\MobileBanking\\Specs\\SpecFlow.CodeGeneratorPlugin
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFFAFCB9-3FEA-4C93-803F-988CC95770E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFFAFCB9-3FEA-4C93-803F-988CC95770E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFFAFCB9-3FEA-4C93-803F-988CC95770E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFFAFCB9-3FEA-4C93-803F-988CC95770E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63D17BB-31A2-4E40-AAA0-3A62CF705CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63D17BB-31A2-4E40-AAA0-3A62CF705CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63D17BB-31A2-4E40-AAA0-3A62CF705CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63D17BB-31A2-4E40-AAA0-3A62CF705CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF720669-1490-40CA-AD18-611BA8290A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF720669-1490-40CA-AD18-611BA8290A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF720669-1490-40CA-AD18-611BA8290A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF720669-1490-40CA-AD18-611BA8290A17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC354106-BE98-4787-941E-B68350A5AE57} = {525D2D6F-8D67-4EDE-AEB0-4127DC83E653}
+		{E56C0A39-E5C0-486D-B8F6-4DECE7354ED7} = {DC354106-BE98-4787-941E-B68350A5AE57}
+		{3D843BE7-52A6-454A-B876-C6C15D623E8F} = {E56C0A39-E5C0-486D-B8F6-4DECE7354ED7}
+		{FFFAFCB9-3FEA-4C93-803F-988CC95770E4} = {3D843BE7-52A6-454A-B876-C6C15D623E8F}
+		{E63D17BB-31A2-4E40-AAA0-3A62CF705CA4} = {3D843BE7-52A6-454A-B876-C6C15D623E8F}
+		{EF720669-1490-40CA-AD18-611BA8290A17} = {3D843BE7-52A6-454A-B876-C6C15D623E8F}
+	EndGlobalSection
+EndGlobal
